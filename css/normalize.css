@@ -1,0 +1,49 @@
+/* CSS file tha provides better cross-browser consistency*/
+
+/* Default Reset  */
+*{
+	margin:0;
+	padding:0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;	
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, w
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Ignore ios input style */
+input,textarea{
+    -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
+/* Other Common Styles*/
+*:focus {
+    outline: none;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}

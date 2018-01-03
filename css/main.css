@@ -1,0 +1,90 @@
+/* Start Global Rules*/
+ul, ol{
+	list-style: none
+}
+
+*{
+	box-sizing:border-box
+}
+
+img{
+	max-width:100% !important;
+}
+
+a{
+	text-decoration:none;
+}
+
+em{
+	font-style:italic;
+}
+
+body {
+	line-height: 1;
+	-webkit-text-size-adjust: 100%;
+}
+/* End Global Rules*/
+
+
+/* bold style */
+.bold-style{
+	font-weight:bold;
+}
+
+/* Start table */
+table{
+	width:80%;
+	margin:30px auto;
+	border: 1px solid #000;
+	border-spacing:0;
+	border-collapse: collapse;
+	text-align:left;
+	color: #333;
+  font-family: 'Lato', 'Roboto', Arial, Tahoma, sans-serif;
+	font-size: 18px;
+  line-height: 1.75em;
+}
+
+table caption{
+	text-align:center;
+	letter-spacing: 2px;
+	padding:10px 5px;
+	font-weight: 700; 
+}
+
+table td,
+table th{
+	border:1px solid #000;
+	padding:5px;
+	vertical-align:middle;
+	min-width:50px;
+}
+
+table th{
+	background-color:#91d2ff;
+		font-weight: 600;
+}
+
+/*To access all the odd rows of the table body*/
+table tbody tr:nth-child(odd) {
+	background-color: #f0f0f0; 
+}
+
+/*One way to access the Grand total sum*/
+table tfoot tr:last-child td:first-of-type {
+	background-color: #fff291; 
+	border:3px double #000;	
+}
+
+/*Another way to access the Grand total sum*/
+table tfoot tr:nth-child(3) td:nth-of-type(1) {
+	font-weight:bold; 
+}
+
+/* End table */
+
+/* Start My Framework */
+.clearfix{ /* To fix the problems of the float property */
+	clear:both
+}
+/* End My Framework */
